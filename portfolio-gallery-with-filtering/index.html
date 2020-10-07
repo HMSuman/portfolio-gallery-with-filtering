@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Portfolio Gallery with Filtering</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+        <a href="#"> <img src='https://lh3.googleusercontent.com/DplLmgZBeEeG_zRpVrORJi1QPdoCG82ytki-coKSECJDV5JNaYL3_5heDKOCFcc7Sor7ZBxGTcooIbGqAOtpgC3qQSoWkNDXqeUaXBA1VajcLhEwzV5yj67dtLY73DJhvb0Zw232DMtXWkfUJsjrUMKJYd3oF6mWp6AYWq2GOfLSynKoZdDe43Bz3OdT6km9eqUPsecHi75b2uvjwKPjL31fRP7R9gEOnSZEEApjGNF5im3Pnf02zDgOIFn1IBXGXMflKxP2UVTiFLSHn-EJcTGY1uKst00UzdsZgRAYaAGXC-rUzSTyM8mKKsdBIgKwyCXjWFHfr5lWRCnaPTcYCPQVaCPeL1u0ZblWPhBa0Aj_ZFB4hELIwHUomVbLbUrKrl95cawhtboZAJIKtMq3tSpX1NSmFaVaJgfl6OeQXqwMQeHkQftWlGQ187EHY6jxaQ3SkLzn3JEppEkA3h1-VwZM7XhFC0MIKz1YEsdoqsuP_DQYnFTMhjiDp-MZrNPu7ZCX_OcTRRwROWSemaww7US9Ic4TZ5IDieumsFrtYMLBl1kvdilyKydx4G_DroUWXvK_XAXG-BW2vkWsxg38YkGhcd7LPSo0hJvM26kCpSNSF4dM83l0zUUg-XCi5OLPXuGoCMYOsHjunZBV-Z7a5-UdZdisXueMqT36Ii-Yuc2vzIiZ7PAI_SBOPd_k=w176-h103-no?authuser=0'
+                style="width:10%"></a>
+        <hr>
+
+        <h2>My works</h2>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+            <button class="btn" onclick="filterSelection('people')"> People</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column animals">
+                <div class="content">
+                    <img id='ani' src="https://www.naturalworldsafaris.com/media/5405/nws-st-bengal-tiger.jpg" alt="Mountains" style="width:100%">
+                    <h4>Tiger</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column animals">
+                <div class="content">
+                    <img id='ani' src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/1CE8/production/_109100470_ed01bd7f-0c64-4f6b-9d29-f43261119ade.jpg" alt="Lights" style="width:100%">
+                    <h4>Lion</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column animals">
+                <div class="content">
+                    <img id='ani' src="https://c.files.bbci.co.uk/1175E/production/_106481517_gettyimages-172387616.jpg" alt="Nature" style="width:100%">
+                    <h4>Deer</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column cars">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car" style="width:100%">
+                    <h4>Retro</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car" style="width:100%">
+                    <h4>Fast</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car" style="width:100%">
+                    <h4>Classic</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+
+            <div class="column people">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/people1.jpg" alt="Car" style="width:100%">
+                    <h4>Girl</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/people2.jpg" alt="Car" style="width:100%">
+                    <h4>Man</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img id='ani' src="https://www.w3schools.com/w3images/people3.jpg" alt="Car" style="width:100%">
+                    <h4>Woman</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
